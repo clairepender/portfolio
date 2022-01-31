@@ -1,18 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import { NavBar } from './components/comp_index';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { NavBar, Home } from './components/comp_index';
 
 
 const App = () => {
 
     return(
         <>
+        <Router>
+            <div className="font-assistant">
+                <div className="text-center m-5"><h1>Hey, I'm Claire!</h1></div>
+                <NavBar />
+            </div>
 
-        <h3>hello from the app component</h3>
-        <NavBar />
-    
+        <Route path="/" render={(routeProps) => <Home {...routeProps} />} />
+
+
+
+        </Router>
         </>
+
     )
 }
 
