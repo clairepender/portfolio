@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { NavBar, Home } from './components/comp_index';
+import { NavBar, Home, TechStack, Personal, Contact } from './components/comp_index';
 
 
 const App = () => {
@@ -9,15 +9,17 @@ const App = () => {
     return(
         <>
         <Router>
-            <div className="font-assistant">
-            <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
-                <div className="text-center m-5"><h1>Hey, I'm Claire!</h1></div>
-                <NavBar />
+            <div className="container font-assistant">
+           
+        <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
+                <div className="intro text-center position-relative top-0 start-50 p-5 translate-middle"><h1>Hey, I'm Claire!</h1><NavBar /></div>
             </div>
 
         <Route path="/" render={(routeProps) => <Home {...routeProps} />} />
-
-
+        <Route path="/home" render={(routeProps) => <Home {...routeProps} />} />
+        <Route path="/techstack" render={(routeProps) => <TechStack {...routeProps} />} />
+        <Route path="/personal" render={(routeProps) => <Personal {...routeProps} />} />
+        <Route path="/contact" render={(routeProps) => <Contact {...routeProps} />} />
 
         </Router>
         </>

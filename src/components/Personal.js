@@ -1,8 +1,6 @@
 import React from 'react';
-// import chilecrop from '.images/chilecrop.jpg'
-// import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Personal = () => {
 
 
     return(
@@ -10,7 +8,7 @@ const Home = () => {
           <div className="card position-absolute top-50 start-50 translate-middle font-assistant-bold w-75">
                 {/* <img src={require('../images/chilecrop.jpg')} className="img-thumbnail rounded float-left" alt="..." /> */}
                     <div className="card-body">
-                        <h5 className="card-title text-center">I'm a fullstack web developer.</h5>
+                        <h5 className="card-title text-center">About Me</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
           
@@ -28,4 +26,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Personal;
