@@ -10,6 +10,7 @@ const App = () => {
         <>
         <Router>
             <div className="font-assistant">
+            <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
                 <div className="text-center m-5"><h1>Hey, I'm Claire!</h1></div>
                 <NavBar />
             </div>

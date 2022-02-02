@@ -2,3 +2,9 @@
 .font-assistant{
     font-family: 'Assistant', sans-serif;
 }
+
+.thumbnail{
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
