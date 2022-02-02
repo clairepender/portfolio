@@ -12,7 +12,12 @@ const App = () => {
             <div className="container font-assistant">
            
         <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
-                <div className="intro text-center position-relative top-0 start-50 p-5 translate-middle"><h1>Hey, I'm Claire!</h1><NavBar /></div>
+                <div className="intro text-center position-relative top-0 start-50 p-5 translate-middle">
+                    <h1 className="introtext">Hey, I'm Claire!</h1>
+                        <div>
+                    <NavBar />
+                        </div>
+                </div>
             </div>
 
         <Route path="/" render={(routeProps) => <Home {...routeProps} />} />
