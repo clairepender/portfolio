@@ -4,9 +4,9 @@ const TechStack = () => {
 
     return(
         <div className="container">
-            <div className="card bg-dark text-white position-absolute top-50 start-50 translate-middle font-assistant w-75">
-                 
-                      <div className="card-body bg-dark text-white">
+        <div className="card bg-muted text-dark position-absolute top-50 start-50 translate-middle font-assistant w-75">
+              
+                  <div className="card-body bg-muted text-dark">
                           <h5 className="card-title text-center">The Stack</h5>
                           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { NavBar, Home, TechStack, Personal, Contact } from './components/comp_index';
+import { NavBar, Home, Welcome, TechStack, Personal, Contact } from './components/comp_index';
 
 
 const App = () => {
@@ -13,14 +13,14 @@ const App = () => {
            
         <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
                 <div className="intro text-center position-relative top-0 start-50 p-5 translate-middle">
-                    <h1 className="introtext">Hey, I'm Claire!</h1>
+                    <h1 className="font-assistant-title">Hey, I'm Claire</h1>
                         <div>
                     <NavBar />
                         </div>
                 </div>
             </div>
 
-        <Route path="/" render={(routeProps) => <Home {...routeProps} />} />
+        <Route path="/" render={(routeProps) => <Welcome {...routeProps} />} />
         <Route path="/home" render={(routeProps) => <Home {...routeProps} />} />
         <Route path="/techstack" render={(routeProps) => <TechStack {...routeProps} />} />
         <Route path="/personal" render={(routeProps) => <Personal {...routeProps} />} />
