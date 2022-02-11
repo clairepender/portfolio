@@ -7,14 +7,10 @@ const Welcome = () => {
 
     return(
       <div className="container">
-          <div className="card bg-muted text-dark position-absolute top-50 start-50 translate-middle font-assistant w-75">
-                
-                    
-        
-                <h2>WELCOME PAGE</h2>
-              
 
-        </div>
+         <img src={require('../images/rose.jpg')} className="thumbnail rounded-circle" alt="..." />
+
+         <h1 className="font-assistant-title"></h1>
     </div>
     )
 }

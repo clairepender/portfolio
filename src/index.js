@@ -11,13 +11,15 @@ const App = () => {
         <Router>
             <div className="container font-assistant">
            
-        <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." />
-                <div className="intro text-center position-relative top-0 start-50 p-5 translate-middle">
-                    <h1 className="font-assistant-title">Hey, I'm Claire</h1>
-                        <div>
-                    <NavBar />
-                        </div>
-                </div>
+        {/* <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." /> */}
+                {/* <div className="intro text-center position-absolute top-0 start-50 p-5 translate-middle"> */}
+                    {/* <h1 className="font-assistant-title">Hey, I'm Claire</h1> */}
+
+                
+                        
+                           
+                       
+                {/* </div> */}
             </div>
 
         <Route path="/" render={(routeProps) => <Welcome {...routeProps} />} />
