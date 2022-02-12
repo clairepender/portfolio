@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import collage from './images/grey_collage.jpg';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { NavBar, Home, Welcome, TechStack, Personal, Contact } from './components/comp_index';
 
@@ -9,18 +10,18 @@ const App = () => {
     return(
         <>
         <Router>
-            <div className="container font-assistant">
+        
+            <div className="container">
            
         {/* <img src={require('./images/chilecrop.jpg')} className="thumbnail rounded-circle" alt="..." /> */}
                 {/* <div className="intro text-center position-absolute top-0 start-50 p-5 translate-middle"> */}
                     {/* <h1 className="font-assistant-title">Hey, I'm Claire</h1> */}
-
-                
-                        
-                           
                        
                 {/* </div> */}
-            </div>
+
+                <NavBar />
+                </div> 
+           
 
         <Route path="/" render={(routeProps) => <Welcome {...routeProps} />} />
         <Route path="/home" render={(routeProps) => <Home {...routeProps} />} />

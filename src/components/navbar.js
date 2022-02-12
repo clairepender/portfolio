@@ -7,23 +7,14 @@ const NavBar = () => {
 <>
 
 
-        <div className="text-center font-assistant">
-            <ul className="nav justify-content-center">
-                <li className="nav-item">
-                    <Link className="nav-link active" to="/home">home</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" to="/techstack">tech stack</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" to="/personal">personal stack</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" to="/contact">contact me</Link>
-                </li>
-            </ul>
+<nav class="navbar-text nav flex-column">
+    <Link className="nav-link active" to="/home">home</Link>
+    <Link className="nav-link" to="/techstack">tech</Link>
+    <Link className="nav-link" to="/personal">personal stack</Link>
+    <Link className="nav-link" to="/contact">contact me</Link>
+</nav>
 
-        </div>
+       
 </>      
     )
 }

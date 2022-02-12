@@ -5,29 +5,57 @@ body {
     background-attachment: fixed;
    }
 
+/* .intro{
+    font-size: 50px;
+    font-weight: 500;
+} */
+
+
+
 .text-center a{
     color: white;
     font-weight:900;
     font-size:x-large;
 }
 
-.font-assistant-title{
-    font-family: 'Assistant', sans-serif;
-    color: white;
-    font-weight: bolder;
-    font-size:80px;
+.intro-text{
+    font-family: 'RemindSansRegular';
+    font-weight:lighter;
+    font-style: normal;
+    color: rgb(229, 229, 229);
     position: absolute;
-    top: 20vh;
+    top: 30vh;
     left: 41vw;
 }
 
-.font-assistant{
+
+.intro-name-title{
+    font-family: 'ZnikomitNo25Regular';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size:90px;
+    position: absolute;
+    top: 33vh;
+    left: 25vw;
+}
+
+/* .font-assistant{
     font-family: 'Assistant', sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 18px;
-}
+} */
 
+.navbar-text a{
+    font-family: 'RemindSansRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(229, 229, 229);
+    position: relative;
+    top: 50vh;
+}
 
 /* .font-lobster{
     font-family: 'Lobster', cursive;
@@ -40,11 +68,11 @@ body {
 }
 
 .thumbnail{
-    height: 200px;
+    height: 170px;
     width: auto;
     position: absolute;
-    top: 30vh;
-    left: 40vw;
+    top: 5vh;
+    left: 5vw;
 }
 
 
@@ -53,9 +81,4 @@ body {
     height: 100vh;
     width: 100vw; 
 
-}
-
-.introtext{
-    font-size: 50px;
-    font-weight: 500;
 }
