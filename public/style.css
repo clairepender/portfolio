@@ -19,25 +19,37 @@ body {
 }
 
 .intro-text{
-    font-family: 'RemindSansRegular';
-    font-weight:lighter;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
     font-style: normal;
-    color: rgb(229, 229, 229);
+    font-size: 35px;
+    color: white;
     position: absolute;
-    top: 30vh;
-    left: 41vw;
+    top: 20vh;
+    left: 40vw;
 }
 
 
 .intro-name-title{
-    font-family: 'ZnikomitNo25Regular';
+    font-family: 'BebasNeueBold';
     font-weight: normal;
     font-style: normal;
-    color: white;
-    font-size:90px;
+    color: #FFD251;
+    font-size:130px;
+    text-shadow:2px 2px 1px white;
     position: absolute;
-    top: 33vh;
-    left: 25vw;
+    top: 25vh;
+    left: 30vw;
+}
+
+.intro-sub-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+    position: absolute;
+    top: 43vh;
+    left: 40vw;
 }
 
 /* .font-assistant{
@@ -47,24 +59,51 @@ body {
     font-size: 18px;
 } */
 
-.navbar-text a{
-    font-family: 'RemindSansRegular';
+
+
+.nav a{
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
-    color: rgb(229, 229, 229);
+    color: white;
     position: relative;
-    top: 50vh;
+    top: 10vh;
+    left: 30vw;
+    border-bottom: 2px solid #FFD251;
 }
 
-/* .font-lobster{
-    font-family: 'Lobster', cursive;
-    font-size: 85px;
-} */
-
-.font-elsie{
-    font-family: 'Elsie Swash Caps', cursive;
+.nav a:link{
     color: white;
+}
+
+.nav a:visited{
+    color:white;
+}
+
+.nav a:hover{
+    color: #FFD251;
+}
+
+.nav a:active{
+    color: black;
+}
+
+.card{
+    font-family: 'Raleway', sans-serif;
+    top: 35vh;
+    left: 20vw;
+    opacity: 90%;
+    box-shadow: 2px 2px 3px black;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.card-body{
+    border: 2px solid #FFD251;
+    font-size: 20px;
 }
 
 .thumbnail{
@@ -73,6 +112,8 @@ body {
     position: absolute;
     top: 5vh;
     left: 5vw;
+    border: 2px solid #FFD251;
+    box-shadow: 2px 2px 3px black;
 }
 
 

@@ -7,10 +7,11 @@ const NavBar = () => {
 <>
 
 
-<nav class="navbar-text nav flex-column">
-    <Link className="nav-link active" to="/home">home</Link>
+<nav class="nav">
+    
+    
+    <Link className="nav-link" to="/personal">about</Link>
     <Link className="nav-link" to="/techstack">tech</Link>
-    <Link className="nav-link" to="/personal">personal stack</Link>
     <Link className="nav-link" to="/contact">contact me</Link>
 </nav>
 
