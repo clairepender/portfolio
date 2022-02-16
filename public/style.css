@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.pexels.com/photos/593158/pexels-photo-593158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("vecteezy_wave-vector.jpg");
     background-size:100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,6 +18,8 @@ body {
     font-size:x-large;
 }
 
+
+
 .intro-text{
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
@@ -30,16 +32,43 @@ body {
 }
 
 
-.intro-name-title{
+.intro-first-name{
     font-family: 'BebasNeueBold';
     font-weight: normal;
     font-style: normal;
-    color: #FFD251;
-    font-size:130px;
-    text-shadow:2px 2px 1px white;
+    color: white;
+    font-size:100px;
+    text-shadow:2px 2px 1px rgb(154, 154, 154);
     position: absolute;
     top: 25vh;
-    left: 30vw;
+    left: 43vw;    
+}
+
+/* .intro-top-border{
+    position: absolute;
+    top: 22vh;
+    right: 35vw;
+    color:white;
+}
+
+.intro-bottom-border{
+    position: absolute;
+    top: 48vh;
+    left: 39vw;
+    color:white;
+} */
+
+.intro-last-name{
+    font-family: 'BebasNeueBold';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size:85px;
+    text-shadow:2px 2px 1px rgb(154, 154, 154);
+    position: absolute;
+    top: 38vh;
+    left: 44vw;
+    
 }
 
 .intro-sub-text{
@@ -48,8 +77,8 @@ body {
     font-style: normal;
     color:white;
     position: absolute;
-    top: 43vh;
-    left: 40vw;
+    top: 60vh;
+    left: 35vw;
 }
 
 /* .font-assistant{
@@ -68,9 +97,9 @@ body {
     font-size: 20px;
     color: white;
     position: relative;
-    top: 10vh;
-    left: 30vw;
-    border-bottom: 2px solid #FFD251;
+    top: 50vh;
+    /* left: 30vw; */
+   
 }
 
 .nav a:link{
@@ -102,7 +131,7 @@ body {
 }
 
 .card-body{
-    border: 2px solid #FFD251;
+    border: 2px solid white;
     font-size: 20px;
 }
 
@@ -110,9 +139,9 @@ body {
     height: 170px;
     width: auto;
     position: absolute;
-    top: 5vh;
-    left: 5vw;
-    border: 2px solid #FFD251;
+    top: 10vh;
+    right: 17vw;
+    border: 2px solid white;
     box-shadow: 2px 2px 3px black;
 }
 

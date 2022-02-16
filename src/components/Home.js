@@ -12,8 +12,12 @@ const Home = () => {
          {/* <img src={require('../images/rose.jpg')} className="thumbnail rounded-circle" alt="..." /> */}
          <div className="intro">
             {/* <h4 className="intro-text">hey, my name is</h4> */}
-            <h4 className="intro-name-title">Claire Pender</h4>
-            <h4 className="intro-sub-text">mom, nerd, fullstack engineer.</h4>
+            
+                    <h4 className="intro-first-name">Claire</h4>
+                    <h4 className="intro-last-name">Pender</h4>
+
+            <h4 className="intro-sub-text">mom, artist, fullstack engineer.</h4>
+            
          </div>
 
         

@@ -7,7 +7,7 @@ const NavBar = () => {
 <>
 
 
-<nav class="nav">
+<nav class="nav flex-column">
     
     
     <Link className="nav-link" to="/personal">about</Link>
