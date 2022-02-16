@@ -1,6 +1,6 @@
 body {
-    background-image: url("vecteezy_wave-vector.jpg");
-    background-size:100vw;
+    background-image: url("vecteezy_claire.jpg");
+    background-size:110vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
    }
@@ -77,7 +77,7 @@ body {
     font-style: normal;
     color:white;
     position: absolute;
-    top: 60vh;
+    top: 61vh;
     left: 35vw;
 }
 
@@ -98,6 +98,7 @@ body {
     color: white;
     position: relative;
     top: 50vh;
+    left: 5vw;
     /* left: 30vw; */
    
 }
@@ -111,7 +112,7 @@ body {
 }
 
 .nav a:hover{
-    color: #FFD251;
+    color: #BF212E;
 }
 
 .nav a:active{
@@ -120,9 +121,9 @@ body {
 
 .card{
     font-family: 'Raleway', sans-serif;
-    top: 35vh;
-    left: 20vw;
-    opacity: 90%;
+    top: 42vh;
+    left: 27vw;
+    opacity: 80%;
     box-shadow: 2px 2px 3px black;
 }
 
@@ -140,12 +141,23 @@ body {
     width: auto;
     position: absolute;
     top: 10vh;
-    right: 17vw;
+    right: 10vw;
     border: 2px solid white;
     box-shadow: 2px 2px 3px black;
 }
 
+.container-icons {
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.box-icon {
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 #app{
     height: 100vh;

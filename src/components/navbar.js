@@ -9,9 +9,9 @@ const NavBar = () => {
 
 <nav class="nav flex-column">
     
-    
-    <Link className="nav-link" to="/personal">about</Link>
-    <Link className="nav-link" to="/techstack">tech</Link>
+    <Link className="nav-link" to="/home">home</Link>
+    <Link className="nav-link" to="/about">about</Link>
+    <Link className="nav-link" to="/tech">tech</Link>
     <Link className="nav-link" to="/contact">contact me</Link>
 </nav>
 

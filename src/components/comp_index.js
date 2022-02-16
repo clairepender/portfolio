@@ -1,11 +1,11 @@
 import NavBar from './navbar';
-import TechStack from './TechStack';
-import Personal from './Personal';
+import Tech from './Tech';
+import About from './About';
 import Contact from './Contact';
 import Home from './Home';
 
 export { NavBar };
-export { TechStack };
-export { Personal };
+export { Tech };
+export { About };
 export { Contact };
 export { Home };

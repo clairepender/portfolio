@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { NavBar, Home, TechStack, Personal, Contact } from './components/comp_index';
+import { NavBar, Home, Tech, About, Contact } from './components/comp_index';
 
 
 const App = () => {
@@ -22,10 +22,10 @@ const App = () => {
                
            
 
-        <Route exact path="/" render={(routeProps) => <Home {...routeProps} />} />
+        <Route exact path="/home" render={(routeProps) => <Home {...routeProps} />} />
         
-        <Route path="/techstack" render={(routeProps) => <TechStack {...routeProps} />} />
-        <Route path="/personal" render={(routeProps) => <Personal {...routeProps} />} />
+        <Route path="/tech" render={(routeProps) => <Tech {...routeProps} />} />
+        <Route path="/about" render={(routeProps) => <About {...routeProps} />} />
         <Route path="/contact" render={(routeProps) => <Contact {...routeProps} />} />
 
         </Router>

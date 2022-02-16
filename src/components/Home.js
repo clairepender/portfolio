@@ -13,8 +13,7 @@ const Home = () => {
          <div className="intro">
             {/* <h4 className="intro-text">hey, my name is</h4> */}
             
-                    <h4 className="intro-first-name">Claire</h4>
-                    <h4 className="intro-last-name">Pender</h4>
+                   
 
             <h4 className="intro-sub-text">mom, artist, fullstack engineer.</h4>
             
