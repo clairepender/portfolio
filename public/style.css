@@ -1,5 +1,5 @@
 body {
-    background-image: url("vecteezy_claire.jpg");
+    background-image: url("vecteezy_claire_edit.png");
     background-size:110vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -152,10 +152,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding:10px;
 }
 
 .box-icon {
-    padding: 10px;
     margin-bottom: 10px;
 }
 

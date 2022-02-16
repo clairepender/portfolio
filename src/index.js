@@ -21,8 +21,8 @@ const App = () => {
                 <NavBar />
                
            
-
-        <Route exact path="/home" render={(routeProps) => <Home {...routeProps} />} />
+        <Route path="/" render={(routeProps) => <Home {...routeProps} />} />
+        <Route path="/home" render={(routeProps) => <Home {...routeProps} />} />
         
         <Route path="/tech" render={(routeProps) => <Tech {...routeProps} />} />
         <Route path="/about" render={(routeProps) => <About {...routeProps} />} />
