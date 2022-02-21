@@ -76,7 +76,7 @@ body {
     font-weight: normal;
     font-style: normal;
     color:white;
-    position: absolute;
+    position: fixed;
     top: 61vh;
     left: 35vw;
 }
@@ -88,7 +88,9 @@ body {
     font-size: 18px;
 } */
 
-
+.nav{
+    position: fixed;
+}
 
 .nav a{
     font-family: 'Raleway', sans-serif;
@@ -97,7 +99,7 @@ body {
     font-size: 20px;
     color: white;
     position: relative;
-    top: 50vh;
+    top: 40vh;
     left: 5vw;
     /* left: 30vw; */
    
@@ -120,31 +122,26 @@ body {
 }
 
 .card{
+    background-color: #161B2D;
     font-family: 'Raleway', sans-serif;
-    top: 42vh;
-    left: 27vw;
-    opacity: 80%;
+    color: white;
+    top: 70vh;
+    left: 20vw;
+    opacity: 95%;
     box-shadow: 2px 2px 3px black;
 }
 
 .card-title{
     font-size: 30px;
+    color: white;
 }
 
 .card-body{
-    border: 2px solid white;
+    background-color: #161B2D;
+    /* border: 2px solid white; */
     font-size: 20px;
 }
 
-.thumbnail{
-    height: 170px;
-    width: auto;
-    position: absolute;
-    top: 10vh;
-    right: 10vw;
-    border: 2px solid white;
-    box-shadow: 2px 2px 3px black;
-}
 
 .container-icons {
     text-align: center;

@@ -5,9 +5,9 @@ const Tech = () => {
     return(
         <div className="container">
        
-              
-        <div className="card bg-muted text-dark w-50">
-                <div className="card-body bg-muted text-dark">
+      
+        <div className="card w-50">
+                <div className="card-body ">
                     <h5 className="card-title text-center p-2">The Stack:</h5>
 
                   <div className="container-icons">
@@ -46,18 +46,13 @@ const Tech = () => {
                         </div>
 
                         <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="100" height="100"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="90" height="100"/>
                             <p>Express</p>
                         </div>
 
                         <div class="box-icon">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" width="100" height="100"/>
                             <p>Webpack</p>
-                        </div>
-                        
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100"/>
-                            <p>npm</p>
                         </div>
                         
                         <div class="box-icon">
@@ -68,17 +63,27 @@ const Tech = () => {
                         <div class="box-icon">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="100" height="100"/>
                         <p>Bootstrap</p>
-                    </div>
+                        </div>
+
+                        <div class="box-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100"/>
+                            <p>npm</p>
+                        </div>
+                        
+                        
+
+                       
 
                     {/* <div class="box-icon">
                         
                         <p></p>
                     </div> */}
 
-                    </div>
+                     </div>
+                       
                 </div>
-  
-                <h5 className="card-title text-center p-2">Learning Now:</h5>
+{/*   
+                <h5 className="card-title text-center p-2">Coming Soon:</h5>
 
                 <div className="container-icons">
                     <div class="box-icon">
@@ -103,7 +108,7 @@ const Tech = () => {
                         </div>
 
 
-                </div>
+                </div> */}
 
           </div>
 
