@@ -7,21 +7,15 @@ const Projects = () => {
         
         <div className="container">
        
-              
-        <div className="card w-50">
-                <div className="card-body">
-                    <h5 className="card-title text-center p-3">My Projects</h5>
-                    
-                
-                </div>
+                <div className="project-container">
+                    <h5 className="text-center p-3 projects-title">My Projects:</h5>
+            
+                    <p className="project-image"><img src={require('../images/FitnessTracker_Screenshot.png')} alt="..." 
+                    style={{width: 800, height: 500}}
+                    /></p>
 
-          
-                  
-                 
-  
-          </div>
-      </div>
- 
+                </div> 
+        </div>
     )
 }
 

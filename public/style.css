@@ -142,6 +142,24 @@ body {
     font-size: 20px;
 }
 
+.projects-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.project-container{
+    border: 1px solid white;
+    position: absolute;
+    top: 70vh;
+    left: 25vw;
+    background-color: #161B2D;
+    opacity: 95%;
+}
+
+.project-image{
+    margin: 30px;
+}
 
 .container-icons {
     text-align: center;

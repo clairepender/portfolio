@@ -6,83 +6,74 @@ const Tech = () => {
         <div className="container">
        
       
-        <div className="card w-50">
+            <div className="card w-50">
                 <div className="card-body ">
                     <h5 className="card-title text-center p-2">The Stack:</h5>
 
-                  <div className="container-icons">
-                    <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="100" height="100"/>
-                            <p>JavaScript</p>
-                        </div>
+                    <div className="container-icons">
+                            <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="100" height="100"/>
+                                    <p>JavaScript</p>
+                                </div>
 
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="100" height="100" />
-                            <p>React</p>
-                        </div>
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="100" height="100"/>
-                            <p>HTML5</p>
-                        </div>
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="100" height="100" />
+                                    <p>React</p>
+                                </div>
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="100" height="100"/>
+                                    <p>HTML5</p>
+                                </div>
 
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="100" height="100"/>
-                            <p>CSS3</p>
-                        </div>
-                   
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="100" height="100"/>
-                            <p>GitHub</p>
-                        </div>
-
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="100" height="100"/>
-                            <p>Node.js</p>
-                        </div>
-
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="100" height="100"/>
-                            <p>PostgreSQL</p>
-                        </div>
-
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="90" height="100"/>
-                            <p>Express</p>
-                        </div>
-
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" width="100" height="100"/>
-                            <p>Webpack</p>
-                        </div>
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="100" height="100"/>
+                                    <p>CSS3</p>
+                                </div>
                         
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" width="100" height="100"/>
-                            <p>Heroku</p>
-                        </div>
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="100" height="100"/>
+                                    <p>GitHub</p>
+                                </div>
 
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="100" height="100"/>
-                        <p>Bootstrap</p>
-                        </div>
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="100" height="100"/>
+                                    <p>Node.js</p>
+                                </div>
 
-                        <div class="box-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100"/>
-                            <p>npm</p>
-                        </div>
-                        
-                        
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="100" height="100"/>
+                                    <p>PostgreSQL</p>
+                                </div>
 
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="90" height="100"/>
+                                    <p>Express</p>
+                                </div>
+
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" width="100" height="100"/>
+                                    <p>Webpack</p>
+                                </div>
+                                
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" width="100" height="100"/>
+                                    <p>Heroku</p>
+                                </div>
+
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="100" height="100"/>
+                                <p>Bootstrap</p>
+                                </div>
+
+                                <div class="box-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100"/>
+                                    <p>npm</p>
+                                </div>
+
+                    </div>
                        
-
-                    {/* <div class="box-icon">
-                        
-                        <p></p>
-                    </div> */}
-
-                     </div>
-                       
-                </div>
-{/*   
+                
+  
                 <h5 className="card-title text-center p-2">Coming Soon:</h5>
 
                 <div className="container-icons">
@@ -107,8 +98,8 @@ const Tech = () => {
                             <p>TypeScript</p>
                         </div>
 
-
-                </div> */}
+                        </div>
+                </div>
 
           </div>
 
