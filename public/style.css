@@ -149,6 +149,8 @@ body {
 }
 
 .project-container{
+    font-family: 'Raleway', sans-serif;
+    color: white;
     border: 1px solid white;
     position: absolute;
     top: 70vh;
