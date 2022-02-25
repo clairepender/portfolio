@@ -10,9 +10,15 @@ const Home = () => {
            <div className="intro-sub-text">
            <h4>mom, artist, fullstack engineer.</h4>
             <h4 className="contact-info text-center">clairepender5@gmail.com</h4>
-               <div className="contact-icon">
+               <div className="contact-li">
+                     <a href="https://www.linkedin.com/in/claire-pender-90b8321a1/">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="60" height="60" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60" />
+                     </a>
+               </div>
+               <div className="contact-gh">
+                  <a href="https://github.com/clairepender">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60" />
+                  </a>
                </div>
            </div>
            

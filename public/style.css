@@ -149,14 +149,25 @@ body {
     font-style: normal;
 }
 
-.contact-icon{
+.contact-li{
     position: fixed;
     top: 70vh;
-    left: 40vw;
+    left: 41vw;
     border: 1px solid white;
     background-color:white;
-    margin: 5px;
-    width: 128px;
+    margin: 1px;
+    border-radius: 7px;
+  
+}
+
+.contact-gh{
+    position: fixed;
+    top: 70vh;
+    left: 45vw;
+    border: 1px solid white;
+    background-color:white;
+    margin: 1px;
+    border-radius: 7px;
 }
 
 .projects-title{
