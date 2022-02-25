@@ -154,13 +154,19 @@ body {
     border: 1px solid white;
     position: absolute;
     top: 70vh;
-    left: 25vw;
+    left: 22vw;
     background-color: #161B2D;
     opacity: 95%;
+    padding: 10px;
+    width: 60vw;
 }
 
 .project-image{
     margin: 30px;
+}
+
+.project-link a{
+    color: white;
 }
 
 .container-icons {
