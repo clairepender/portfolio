@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/tech" render={(routeProps) => <Tech {...routeProps} />} />
         <Route path="/projects" render={(routeProps) => <Projects {...routeProps} />} />
         <Route path="/about" render={(routeProps) => <About {...routeProps} />} />
-        <Route path="/contact" render={(routeProps) => <Contact {...routeProps} />} />
+        {/* <Route path="/contact" render={(routeProps) => <Contact {...routeProps} />} /> */}
 
         </Router>
         </>

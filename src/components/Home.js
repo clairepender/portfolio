@@ -1,6 +1,4 @@
 import React from 'react';
-// import chilecrop from '.images/chilecrop.jpg'
-// import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -8,19 +6,17 @@ const Home = () => {
     return(
 
       <div className="container">
-
-         {/* <img src={require('../images/rose.jpg')} className="thumbnail rounded-circle" alt="..." /> */}
          <div className="intro">
-            {/* <h4 className="intro-text">hey, my name is</h4> */}
-            
-                   
-
-            <h4 className="intro-sub-text">mom, artist, fullstack engineer.</h4>
-            
+           <div className="intro-sub-text">
+           <h4>mom, artist, fullstack engineer.</h4>
+            <h4 className="contact-info text-center">clairepender5@gmail.com</h4>
+               <div className="contact-icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="60" height="60" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60" />
+               </div>
+           </div>
+           
          </div>
-
-        
-
     </div>
 
     )
