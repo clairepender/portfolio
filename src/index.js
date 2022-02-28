@@ -24,6 +24,8 @@ const App = () => {
         {/* <Route path="/contact" render={(routeProps) => <Contact {...routeProps} />} /> */}
 
         </Router>
+
+        <h5 className="portfolio-version">made with love and coffee - V 1.0</h5>
         </>
 
     )

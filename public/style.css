@@ -147,27 +147,38 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-style: normal;
+    
 }
 
 .contact-li{
     position: fixed;
-    top: 70vh;
+    top: 72vh;
     left: 41vw;
     border: 1px solid white;
     background-color:white;
     margin: 1px;
     border-radius: 7px;
-  
+    padding: 1px;
 }
 
 .contact-gh{
     position: fixed;
-    top: 70vh;
-    left: 45vw;
+    top: 72vh;
+    left: 48vw;
     border: 1px solid white;
     background-color:white;
     margin: 1px;
     border-radius: 7px;
+    padding: 1px;
+}
+
+.portfolio-version{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+    color: white;
+    position:absolute;
+    top: 95vh;
+    left: 41vw;
 }
 
 .projects-title{
