@@ -286,12 +286,6 @@ body {
     }
 
     .intro-sub-text{
-        font-family: 'Raleway', sans-serif;
-        font-weight: normal;
-        font-style: normal;
-        color:white;
-        position: fixed;
-        top: 65vh;
-        left: 35vw;
+        display:none;
     }
   }
