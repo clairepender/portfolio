@@ -265,6 +265,7 @@ body {
         font-size: 12px;
     }
     .contact-info{
+        display: flex;
         color: white;
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
@@ -287,5 +288,22 @@ body {
 
     .intro-sub-text{
         display:none;
+    }
+
+    .nav{
+        position: fixed;
+    }
+    
+    .nav a{
+        font-family: 'Raleway', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 10px;
+        color: white;
+        position: relative;
+        top: 40vh;
+        left: 5vw;
+        /* left: 30vw; */
+       
     }
   }
