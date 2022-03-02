@@ -246,7 +246,7 @@ body {
         background-color: #161B2D;
         font-family: 'Raleway', sans-serif;
         color: white;
-        top: 70vh;
+        top: 20vh;
         left: 30vw;
         opacity: 95%;
         box-shadow: 2px 2px 3px black;
@@ -255,7 +255,7 @@ body {
     }
 
     .card-title{
-        font-size: 20px;
+        font-size: 15px;
         color: white;
     }
     
@@ -270,24 +270,21 @@ body {
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-style: normal;
-        font-size: smaller;
+        font-size: 20px;
+
         
     }
 
     .contact-li{
         position:fixed;
-        top: 80vh;
-        left: 50vw;
+        top: 40vh;
+        left: 35vw;
     }
 
     .contact-gh{
-        position: fixed;
-        top: 80vh;
-        left: 65vw;
-    }
-
-    .intro-sub-text{
-        display:none;
+        position:fixed;
+        top: 40vh;
+        left: 48vw;
     }
 
     .nav{
@@ -298,12 +295,27 @@ body {
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-style: normal;
-        font-size: 10px;
+        font-size: 20px;
         color: white;
         position: relative;
         top: 40vh;
         left: 5vw;
         /* left: 30vw; */
        
+    }
+
+    .project-container{
+        border: none;
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+    }
+
+    .projects-title{
+        font-size: 20px;
+    }
+
+    .container-body{
+        font-size: smaller;
     }
   }
