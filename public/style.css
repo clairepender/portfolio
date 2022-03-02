@@ -81,6 +81,11 @@ body {
     left: 35vw;
 }
 
+.name-mobile{
+    display:none;
+    
+}
+
 /* .font-assistant{
     font-family: 'Assistant', sans-serif;
     color: white;
@@ -284,7 +289,16 @@ body {
     .contact-gh{
         position:fixed;
         top: 40vh;
-        left: 48vw;
+        left: 55vw;
+    }
+
+    .name-mobile{
+        display:flex;
+        position:fixed;
+        top: 0vh;
+        left: 0vw;
+        right: 0vw;
+        color:white;
     }
 
     .nav{
@@ -298,7 +312,7 @@ body {
         font-size: 20px;
         color: white;
         position: relative;
-        top: 40vh;
+        top: 50vh;
         left: 5vw;
         /* left: 30vw; */
        
