@@ -312,7 +312,7 @@ body {
     }
 
     .nav{
-        position: fixed;
+        position: absolute;
     }
     
     .nav a{
@@ -324,6 +324,7 @@ body {
         position: relative;
         top: 30vh;
         left: 5vw;
+        z-index: 1;
         /* left: 30vw; */
        
     }
