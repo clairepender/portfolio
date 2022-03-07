@@ -286,13 +286,13 @@ body {
     .contact-li{
         position:fixed;
         top: 50vh;
-        left: 35vw;
+        left: 40vw;
     }
 
     .contact-gh{
         position:fixed;
         top: 50vh;
-        left: 55vw;
+        left: 60vw;
     }
 
     .intro-line{
