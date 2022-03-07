@@ -8,7 +8,7 @@ const Home = () => {
       <div className="container">
          <div className="intro">
             <div className="name-mobile"><img src={require('../images/mobilebanner.png')} alt="..." 
-                            style={{width: 550, height: 275}} /></div>
+                            style={{width: 600, height: 300}} /></div>
            <div className="intro-sub-text">
            <h4>mom, artist, fullstack engineer.</h4>
             <h4 className="contact-info text-center">clairepender5@gmail.com</h4>
